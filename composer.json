@@ -1,16 +1,15 @@
 {
-    "name": "ncut/lara_auto",
-    "description": "xinru",
+    "name": "user/lara_auto",
     "authors": [
         {
             "name": "xinru",
             "email": "s3a632065@student.ncut.edu.tw"
         }
     ],
-    "require": {},
-    "autoload": {
-        "psr-4": {
-            "Demo\\": "./src/Demo"
-        }
+
+    "require": {
+        "monolog/monolog": "^1.25",
+        "nesbot/carbon":"^1.21"
+
     }
 }
